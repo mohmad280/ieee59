@@ -259,12 +259,14 @@ const Home = () => (
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <Link
-            to="/join"
-            className="inline-flex items-center gap-2 px-7 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition-all hover:bg-primary/90 hover:scale-105 active:scale-95"
-          >
-            Join Us <ArrowRight size={16} />
-          </Link>
+          <a
+    href="https://chat.whatsapp.com/LNzt5UL2TymEBj6XBHQopu?mode=gi_t" // ضع رابط القروب هنا
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-7 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition-all hover:bg-primary/90 hover:scale-105 active:scale-95"
+  >
+    Join Us <ArrowRight size={16} />
+  </a>
 
           <Link
             to="/about"

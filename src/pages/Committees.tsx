@@ -111,8 +111,8 @@ const committeesData = [
     icon: <Camera size={20} />,
     members: [
       { name: "Mahmoud Sallam", role: "Audio production", avatar: mhmud, linkedin: "https://www.linkedin.com/in/mahmoud-sallam-78387a363?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
-      { name: "جنی الشديفات", role: "Member", avatar: "https://i.pravatar.cc/100?img=30", linkedin: "https://www.linkedin.com/in/ieee-inu-5a333a3a1/" },
-      { name: "نور انجادات", role: "Member", avatar: "https://i.pravatar.cc/100?img=37", linkedin: "https://www.linkedin.com/in/ieee-inu-5a333a3a1/" },
+      { name: "جنی الشديفات", role: "Member", avatar: def, linkedin: "https://www.linkedin.com/in/ieee-inu-5a333a3a1/" },
+      { name: "نور انجادات", role: "Member", avatar: def, linkedin: "https://www.linkedin.com/in/ieee-inu-5a333a3a1/" },
       
     ],
   },

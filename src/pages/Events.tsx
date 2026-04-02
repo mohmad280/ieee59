@@ -21,6 +21,8 @@ import m6 from "../assets/events_phote/im6.jpg"
 
 
 
+
+
 const allEvents = [
   {
     id: "1",
@@ -66,41 +68,9 @@ const allEvents = [
     image: image4,
     link: "#",
   },
+  
   {
     id: "5",
-    type: "Meeting",
-    title: "General Members Meeting ",
-    description: "Discussion of the annual plan and future goals.",
-    date: "February  17, 2026",
-    time: "10:00 AM - 12:00 PM",
-    location: "Calma Space Irbid",
-    image: image5,
-    link: "#",
-  },
-  {
-    id: "6",
-    type: "Workshop",
-    title: "Web Interface Development",
-    description: "Join us for a Front-End development workshop.",
-    date: "February  7, 2026",
-    time: "4:00 PM - 6:00 PM",
-    location: "Online",
-    image: image6,
-    link: "#",
-  },
-  {
-    id: "7",
-    type: "Workshop",
-    title: "Back-End Development with .NET",
-    description: "Join our special backend development workshop using .NET, presented by engineer Odai Al-Fararjeh.",
-    date: "February  6, 2026",
-    time: "4:00 PM - 6:00 PM",
-    location: "Online",
-    image: image7,
-    link: "#",
-  },
-  {
-    id: "8",
     type: "Workshop",
     title: "Data Analysis Using Python Workshop",
     description: "Join us for an introductory workshop on data analysis using Python and take your first step into the world of data analysis.",
@@ -111,7 +81,7 @@ const allEvents = [
     link: "#",
   },
   {
-    id: "9",
+    id: "6",
     type: "Workshop",
     title: "HTML & CSS Fundamentals Workshop",
     description: "Are you ready to enter the world of web development? Join our HTML & CSS Fundamentals workshop and build a strong foundation for creating websites from scratch.",
@@ -122,7 +92,7 @@ const allEvents = [
     link: "#",
   },
   {
-    id: "10",
+    id: "7",
     type: "Branch Opening",
     title: "IEEE-INU Branch Opening",
     description: "Under the patronage of the President of Irbid National University, Prof. Majed Abu Zreig, the IEEE branch at the university was officially opened on Wednesday, December 17, 2025.",
@@ -138,36 +108,36 @@ const pastHighlights = [
   {
     id: "h1",
     
-    attendees: 90,
+    
     image: m1,
   },
   {
     id: "h2",
     
-    attendees: 45,
+    
     image: m2,
   },
   {
     id: "h3",
     
-    attendees: 60,
+    
     image: m3,
   },
   {
     id: "h4",
     
-    attendees: 70,
+    
     image: m4,
   },
   {
     id: "h5",
     
-    attendees: 55,
+    
     image: m5,
   },
   {
     id: "h6",
-    attendees: 100,
+    
     image: m6,
   },
 ];
@@ -270,7 +240,7 @@ const Events = () => {
                 <h3 className="text-lg font-semibold">{highlight.title}</h3>
                 <div className="flex items-center justify-between mt-1 text-sm opacity-90">
                   <span>{highlight.date}</span>
-                  <span>{highlight.attendees} attendees</span>
+                  
                 </div>
               </div>
             </article>

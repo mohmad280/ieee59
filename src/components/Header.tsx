@@ -53,13 +53,15 @@ const Header = () => {
 
           {/* Join Us Button */}
           <div className="hidden md:block">
-            <Link
-              to="/join"
-              className="inline-flex items-center px-5 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium transition-all hover:bg-primary/90 active:scale-95"
-            >
-              Join Us
-            </Link>
-          </div>
+  <a
+    href="https://chat.whatsapp.com/LNzt5UL2TymEBj6XBHQopu?mode=gi_t" // ضع رابط القروب هنا
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center px-5 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium transition-all hover:bg-primary/90 active:scale-95"
+  >
+    Join Us
+  </a>
+</div>
 
           {/* Theme toggle */}
           <ThemeToggle />
