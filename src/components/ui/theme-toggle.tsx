@@ -10,10 +10,8 @@ export function ThemeToggle() {
     if (typeof window === "undefined") return "light";
     const stored = window.localStorage.getItem(STORAGE_KEY) as Theme | null;
     if (stored) return stored;
-    return window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    // Default to light mode for first-time visitors
+    return "light";
   });
 
   useEffect(() => {
