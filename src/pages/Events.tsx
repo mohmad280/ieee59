@@ -9,7 +9,7 @@ import image4 from "../assets/events_phote/IFTAR_Ramdan.jpg"
 import image8 from "../assets/events_phote/momen_DA.jpg"
 import image9 from "../assets/events_phote/html&css.jpg"
 import image10 from "../assets/events_phote/branch_open.jpg"
-import image11 from "../assets/events_phote/IMG_1230.JPG.jpeg"
+import image11 from "../assets/events_phote/IMG_1230.JPG.webp"
 
 import m1 from "../assets/events_phote/im1.jpg"
 import m2 from "../assets/events_phote/im2.jpg"
