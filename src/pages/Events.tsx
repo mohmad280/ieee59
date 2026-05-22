@@ -1,13 +1,11 @@
 import { useEffect, useRef, useState } from "react";
-import { BookOpen, Briefcase, Code2, Globe, Trophy, Calendar, MapPin, Clock, ChevronLeft, ChevronRight } from "lucide-react";
+import { BookOpen, Calendar, MapPin, Clock, ChevronLeft, ChevronRight } from "lucide-react";
 
 import image1 from "../assets/events_phote/ababneh_n8n.jpg";
 import image2 from "../assets/events_phote/nadoa.jpg";
 import image3 from "../assets/events_phote/bothh.jpg"
 import image4 from "../assets/events_phote/IFTAR_Ramdan.jpg"
-import image5 from "../assets/events_phote/meeting_calma.jpg"
-import image6 from "../assets/events_phote/flasha_frontend.jpg"
-import image7 from "../assets/events_phote/flasha_backend.jpg"
+
 import image8 from "../assets/events_phote/momen_DA.jpg"
 import image9 from "../assets/events_phote/html&css.jpg"
 import image10 from "../assets/events_phote/branch_open.jpg"
