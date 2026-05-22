@@ -11,6 +11,7 @@ import image7 from "../assets/events_phote/flasha_backend.jpg"
 import image8 from "../assets/events_phote/momen_DA.jpg"
 import image9 from "../assets/events_phote/html&css.jpg"
 import image10 from "../assets/events_phote/branch_open.jpg"
+import image11 from "../assets/events_phote/IMG_1230.JPG.jpeg"
 
 import m1 from "../assets/events_phote/im1.jpg"
 import m2 from "../assets/events_phote/im2.jpg"
@@ -23,9 +24,21 @@ import m6 from "../assets/events_phote/im6.jpg"
 
 
 
+
 const allEvents = [
   {
     id: "1",
+    type: "",
+    title: "IEEE MegaMeet",
+    description: "We look back at the highlights of the IEEE MegaMeet, the largest gathering of technology enthusiasts, students, and professionals at Irbid National University. This conference provided an exceptional opportunity to connect, share experiences, and celebrate our community's technical achievements together.",
+    date: " May 9, 2026",
+    time: "11:00 AM - 4:00 PM",
+    location: "Irbid National University",
+    image: image11,
+    link: "#",
+  },
+  {
+    id: "2",
     type: "Workshop",
     title: "Workshop: AI Automation With n8n",
     description: "Looking for a way to make AI work for you? Join our AI Automation with n8n workshop with engineer Ahmad Ababneh to learn how to build smart systems that save time and effort.",
@@ -36,7 +49,7 @@ const allEvents = [
     link: "#",
   },
   {
-    id: "2",
+    id: "3",
     type: "Awareness Session",
     title: "Awareness Session: “Start Your Journey with IEEE-INU",
     description: "We launched the “Start Your Journey with IEEE-INU” session to outline the path and open doors to technical and professional opportunities for our students. The journey has just begun, and the future awaits you.",
@@ -47,7 +60,7 @@ const allEvents = [
     link: "#",
   },
   {
-    id: "3",
+    id: "4",
     type: "Awareness",
     title: "IEEE Awareness Booth",
     description: "The IEEE INU booth, where technology meets passion.",
@@ -58,7 +71,7 @@ const allEvents = [
     link: "#",
   },
   {
-    id: "4",
+    id: "5",
     type: "IEEE TechSpark Iftar",
     title: "Participation in Buslat Al-Qiyam (IEEE TechSpark Iftar 2026)",
     description: "As part of “Buslat Al-Qiyam 2”, the IEEE TechSpark Iftar 2026 was not just an event, but a knowledge bridge and a magical gateway through which children explored the world of technology.",
@@ -70,7 +83,7 @@ const allEvents = [
   },
   
   {
-    id: "5",
+    id: "6",
     type: "Workshop",
     title: "Data Analysis Using Python Workshop",
     description: "Join us for an introductory workshop on data analysis using Python and take your first step into the world of data analysis.",
@@ -81,7 +94,7 @@ const allEvents = [
     link: "#",
   },
   {
-    id: "6",
+    id: "7",
     type: "Workshop",
     title: "HTML & CSS Fundamentals Workshop",
     description: "Are you ready to enter the world of web development? Join our HTML & CSS Fundamentals workshop and build a strong foundation for creating websites from scratch.",
@@ -92,7 +105,7 @@ const allEvents = [
     link: "#",
   },
   {
-    id: "7",
+    id: "8",
     type: "Branch Opening",
     title: "IEEE-INU Branch Opening",
     description: "Under the patronage of the President of Irbid National University, Prof. Majed Abu Zreig, the IEEE branch at the university was officially opened on Wednesday, December 17, 2025.",
