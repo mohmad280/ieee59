@@ -9,7 +9,7 @@ import image4 from "../assets/events_phote/IFTAR_Ramdan.jpg"
 import image8 from "../assets/events_phote/momen_DA.jpg"
 import image9 from "../assets/events_phote/html&css.jpg"
 import image10 from "../assets/events_phote/branch_open.jpg"
-import image11 from "../assets/events_phote/IMG_1230.JPG.webp"
+import image11 from "../assets/events_phote/mega.webp"
 
 import m1 from "../assets/events_phote/im1.jpg"
 import m2 from "../assets/events_phote/im2.jpg"
@@ -26,7 +26,7 @@ import m6 from "../assets/events_phote/im6.jpg"
 const allEvents = [
   {
     id: "1",
-    type: "",
+    type: "MegaMeet",
     title: "IEEE MegaMeet",
     description: "We look back at the highlights of the IEEE MegaMeet, the largest gathering of technology enthusiasts, students, and professionals at Irbid National University. This conference provided an exceptional opportunity to connect, share experiences, and celebrate our community's technical achievements together.",
     date: " May 9, 2026",
