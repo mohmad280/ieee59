@@ -98,7 +98,7 @@ const allEvents = [
     description: "Are you ready to enter the world of web development? Join our HTML & CSS Fundamentals workshop and build a strong foundation for creating websites from scratch.",
     date: "January   4, 2026",
     time: "10:00 AM - 12:00 PM",
-    location: "Irbid National University - Faculty of Information Technology - Smart Room",
+    location: "Irbid National University - Faculty of Information Technology - Smart Room A",
     image: image9,
     link: "#",
   },
